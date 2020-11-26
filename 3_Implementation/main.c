@@ -7,13 +7,6 @@ float overall_rating();
 int main()
 {
     float m;
-    printf("hello");
-   m= overall_rating();
-
-return 0;
- }
-float overall_rating()    //helps to take variable number of arguments
-{
     int i=0;
     int frequency_array[10]={};   //To know the no of students given a particular scale
     int rating_array[40]={};     //To store individual ratings given by the 40 students
